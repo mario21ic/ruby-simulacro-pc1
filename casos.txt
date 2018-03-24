@@ -1,0 +1,36 @@
+Caso 01
+Un zoológico requiere de un programa para gestionar los animales a su cargo y los empleados asignados. El zoológico, del que se tiene su nombre y dirección, se divide en varias zonas (costa, sierra, selva; con sus respectivos códigos) y estas zonas tienen jaulas con código y descripción de especie. Cada jaula tiene cero, uno o varios animales asignados. El zoológico cuenta con cuidadores que tienen a su cargo una o varias jaulas. De los cuidadores se requiere su información de DNI, nombre y sexo. Desarrolle el diagrama de clases del caso.
+
+Caso 02
+Una empresa veterinaria tiene 4 sucursales en Lima, las cuales tienen asignados empleados para los servicios que presta. Los clientes de la veterinaria son dados de alta si es que cuentan al menos con una mascota (pueden tener n mascotas). En caso el cliente es dado de baja, se deben dar de baja también a sus mascotas. Las mascotas de los clientes pueden ser atendidos por cualquier empleado de cualquiera de las sucursales. Desarrolle el diagrama de clases del caso.
+
+Caso 03
+En un baby shower las asistentes a la fiesta juegan a preguntar las edades de otras asistentes. Las asistentes deberán decir sus edades con la verdad. Para ello se ven obligadas a mostrar su fecha de nacimiento de algún documento. Se descubre que Martha por ejemplo tiene 29 años y no los 27 que decía tener. Desarrollar el programa que permita representar el evento de personas que como dato tengan su fecha de nacimiento y puedan decir su edad exacta (considerar mes y día).
+
+Caso 04
+La empresa de Turismo “Para la tercera edad” está ubicada en Javier Prado 325 San Isidro y cuenta con 4 vehículos para el transporte de turistas del hotel  al punto de visita.
+Cada vehículo puede llevar máximo a 5 turistas y tienen un lugar turístico / zona asignada.
+Existe un conductor y un guía por cada coche y cuando el turista sube se le pregunta el nombre por seguridad.
+Se necesita saber la lista de turistas de un vehículo particular y poder preguntar por un turista en particular y saber en qué vehículo se encuentra.
+
+Caso 05
+Una empresa desea calcular el sueldo a pagar a un grupo de trabajadores. Para ello los trabajadores pueden ser de dos tipos: Fijos o Contratados. En el caso de los fijos el sueldo se calcula mediante la fórmula: Horas Trabajadas * Precio x Hora. En el caso de los contratados el sueldo se calcula tomando en cuenta la cantidad de productos vendidos: Si es menos de 50 se paga 100 soles, si son entre 50 y 100 se paga 150 y si es más de 100 se paga 250. El sistema deberá presentar el total de los sueldos a pagar y la cantidad de trabajadores pagados así como el sueldo promedio.
+
+Caso 06
+Una escuela requiere una calculadora de números binarios que permita sumar dos números binarios. El usuario deberá ingresar los números en sistema decimal, luego el programa los mostrará en sistema binario, los sumará y finalmente mostrará el resultado en binario y en sistema decimal.
+
+Caso 07
+Una universidad desea una aplicación que le permita a un alumno comprobar los resultados de las siguientes operaciones:
+-? Cálculo del área de un círculo.
+?- Cálculo del área de un cuadrado.
+?- Factorial de un número
+?- Determinar si un número es primo.
+?Las operaciones matemáticas deberán estar implementadas como métodos de clase en una clase llamada Calculadora.  Adicionalmente deberá indicar cuantas operaciones se han realizado incrementándose de uno en uno cada vez que se invoca una operación.
+
+Caso 08
+Una empresa desea un sistema que le permita calcular el descuento que le corresponde a una persona que realiza una compra determinada. Para ello la persona deberá ingresar los productos a comprar. Una vez calculado el total deberá emitir el descuento de la personas que es de 10% si la compra es de más de 50 soles y de 20% si la compra es de más de 100 soles. El métodos que calcula el descuento deberá ser un método de clase
+
+Caso 09
+Una veterinaria exclusiva desea llevar un registro de sus clientes y sus mascotas. Para ello se considera que un cliente tiene solamente una mascota. Esta mascota tiene un nombre y un estado que puede ser vacunado o no vacunado. Desarrollar un programa que me permita contar la cantidad de mascotas vacunadas y no vacunadas teniendo como muestra por lo menos a N clientes con sus mascotas. Los clientes pueden tener perros o gatos. En el caso de los perros pueden estar vacunados o no. En el caso de los gatos pueden estar esterilizados o no.
+
+StarUML: http://staruml.sourceforge.net/en/
